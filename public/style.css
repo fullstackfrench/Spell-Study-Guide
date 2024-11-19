@@ -5,3 +5,35 @@ body{
 img{
   height: 200px;
 }
+
+.Gryffindor { 
+  background-image: url(../img/gryffindor.jpg);
+  background-size: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Ravenclaw {
+  background-image: url(../img/ravenclaw.jpg);
+  background-size: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Hufflepuff {
+  background-image: url(../img/hufflepuff.jpg);
+  background-size: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Slytherin {
+  background-image: url(../img/slytherin.jpg);
+  background-size: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+li { 
+  list-style: none;
+}

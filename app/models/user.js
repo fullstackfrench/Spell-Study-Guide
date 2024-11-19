@@ -7,7 +7,8 @@ var userSchema = mongoose.Schema({
 
     local            : {
         email        : String,
-        password     : String
+        password     : String,
+        userType     : {type: String, required: true, enum: ['Gryffindor', 'Hufflepuff', 'Ravenclaw', 'Slytherin'], default: 'User' }
     },
     facebook         : {
         id           : String,

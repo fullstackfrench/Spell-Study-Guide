@@ -13,7 +13,8 @@ module.exports = function(app, passport, db) {
           if (err) return console.log(err)
           res.render('profile.ejs', {
             
-            spells: result
+            spells: result,
+            user: req.user
           })
         })
     });
