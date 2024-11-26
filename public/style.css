@@ -2,8 +2,13 @@ body{
   padding-top:80px;
   word-wrap:break-word;
 }
+
 img{
   height: 200px;
+}
+
+h1 {
+  font-weight: bold;
 }
 
 .Gryffindor { 
