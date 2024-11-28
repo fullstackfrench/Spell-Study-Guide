@@ -1,8 +1,8 @@
-# Spell Study Guide
+# 🧙🏾‍♀️Spell Study Guide
 
 A web application designed for Harry Potter fans to explore, save, and study magical spells. Users can sign up, choose their Hogwarts house, and interact with spells using various features like pinning, wands, and more.
 
-## 🚀 Features
+## ✨ Features
 
 - **User Authentication**:
   - Sign up, log in, and log out with email and password.
