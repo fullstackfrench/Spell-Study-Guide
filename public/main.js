@@ -1,7 +1,7 @@
 var wand = document.getElementsByClassName("fa-wand-sparkles");
 var trash = document.getElementsByClassName("fa-trash-o");
 var pin = document.getElementsByClassName("pinned")
-document.querySelector('.getSpell').addEventListener('click', () => {
+document.querySelector('.get-spell').addEventListener('click', () => {
   // First fetch request (GET) to get data from the API
   fetch("https://hp-api.onrender.com/api/spells")
     .then(response => response.json())
